@@ -127,7 +127,7 @@ function draw() {
   }
 
   push();
-  translate(width / 2, height / 2);
+  translate(width / 2, height / 2-50);
   // patternDis.resize(windowWidth / 2, 0);
 
   imageMode(CENTER);
