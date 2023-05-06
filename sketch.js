@@ -84,7 +84,7 @@ function setup() {
 
   for (let i = 0; i < 1800; i++) {
     myFont[i] = random(myFont);
-    colorSet[i] = random(100, 225);
+    colorSet[i] = random(100, 255);
     luck[i] = round(random(-1, 1));
     luck2[i] = round(random(-1, 1));
 
@@ -272,7 +272,7 @@ function drawPattern(dis) {
   let leading = 55;
 
   for (let i = 0; i < nameDis.length; i++) {
-    if (frameCount < 5) {
+    if (frameCount < 10) {
       let wordW = textWidth(nameDis[i]);
       textDis.noStroke();
       textDis.noFill();
@@ -392,6 +392,6 @@ function windowResized() {
 function mousePressed() {
   if (d < 150) {
     location.reload();
-    location.href = "https://editor.p5js.org/aj.nguyen93/full/8OyOe47jT";
+    location.href = "https://samesamebut.netlify.app/";
   }
 }
