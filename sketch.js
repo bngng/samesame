@@ -145,7 +145,7 @@ function draw() {
   image(logo2, -width / 150, -width / 180, width + 20, width / 16);
 
   push();
-  translate(width / 2 - 640 / 2, height / 2 + height / 6.5);
+  translate(width / 2 - 655 / 2, height / 2 + height / 6.5);
   drawDescription();
   pop();
 
@@ -175,7 +175,7 @@ function drawDescription() {
       fill(255, colorSet[j]);
       text(words[j], offset, leading);
       offset += wordWidth;
-      if (offset > 640) {
+      if (offset > 655) {
         leading += 23;
         offset = 0;
       }
