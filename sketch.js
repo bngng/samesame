@@ -137,7 +137,7 @@ function draw() {
 
   blendMode(HARD_LIGHT);
   tint(255, 35);
-  image(patternDis, 0, 0, 800, 480);
+  image(patternDis, 0, 0, 820, 480);
   pop();
 
   imageMode(CORNER);
