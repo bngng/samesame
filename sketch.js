@@ -132,7 +132,7 @@ function draw() {
 
   imageMode(CENTER);
 
-  tint(255, map(mouseX, 0, width, 65, 100));
+  tint(255, map(mouseX, 0, width, 65, 90));
   image(patternDis, 0, 0, 900, 540);
 
   blendMode(HARD_LIGHT);
