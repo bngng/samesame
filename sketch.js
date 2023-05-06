@@ -133,11 +133,11 @@ function draw() {
   imageMode(CENTER);
 
   tint(255, map(mouseX, 0, width, 65, 90));
-  image(patternDis, 0, 0, 820, 480);
+  image(patternDis, 0, 0, 750, 450);
 
   blendMode(HARD_LIGHT);
   tint(255, 35);
-  image(patternDis, 0, 0, 820, 480);
+  image(patternDis, 0, 0, 750, 450);
   pop();
 
   imageMode(CORNER);
