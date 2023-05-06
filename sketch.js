@@ -145,7 +145,7 @@ function draw() {
   image(logo2, -width / 150, -width / 180, width + 20, width / 16);
 
   push();
-  translate(width / 2 - 655 / 2, height / 2 + height / 6);
+  translate(width / 2 - 655 / 2, height / 2 + height / 6.5);
   drawDescription();
   pop();
 
